@@ -5,6 +5,10 @@ h1, h2, h3, p, ul {
     padding-left: 0;
 }
 
+.art{
+color: black;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -215,7 +219,7 @@ body {
 }
 
 .background-container2 {
-    background-image: url('/Desktop/DESKTOP/Portfolio/images/img1.jpg');
+    background-image: url('images/landscape.png');
 }
 
 .background-container3 {
