@@ -5,9 +5,25 @@ h1, h2, h3, p, ul {
     padding-left: 0;
 }
 
-.art{
+.background-container1 {
+    background-image: url('/images/img1.jpg');
+}
+
+.background-container2 {
+    background-image: url('/images/wheatstacks.jpg');
+}
+
+.background-container3 {
+    background-image: url('/Desktop/DESKTOP/Portfolio/images/img1.jpg');
+}
+
+.art-h1{
 color: black;
 }
+
+.art-h2{
+    color: black;
+    }
 
 body {
     margin: 0;
@@ -186,10 +202,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* Container styles for API content */
 
-
-/* Footer styles */
 .footer {
     background-color: #f8f9fa; /* Bootstrap light gray background color */
     padding: 20px 0;
@@ -212,30 +225,14 @@ body {
     vertical-align: middle;
 }
 
-/* Define a new class for the background image */
 
-.background-container1 {
-    background-image: url('/images/img1.jpg');
-}
-
-.background-container2 {
-    background-image: url('/images/monet.png');
-}
-
-.background-container3 {
-    background-image: url('/Desktop/DESKTOP/Portfolio/images/img1.jpg');
-}
-
-/* Add this rule to your CSS sheet */
 .custom-button {
     background-color: #002C5B;
     border: 1px solid #002C5B;
     color: #fff;
 }
 
-/* Your existing CSS rules */
 
-/* Add this rule to style the read more/less button */
 .custom-button {
     background-color: #002C5B;
     border: 1px solid #002C5B;
@@ -277,7 +274,56 @@ body {
 #galacticCenterContent .col-md-6:last-child {
     padding-left: 0px; /* Adjust padding as needed */
 }
-@media (max-width: 767px) {
+
+@media (max-width: 393px) {
+    h1{
+        font-size: 32px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+      }
+
+      .responsive-text {
+        font-size: 16px; /* Adjust font size as needed */
+        line-height: 1.5;
+    }
+
+    .art-h1 {
+        font-size: 32px !important;
+        margin-bottom: 40;
+        margin-top: 40px;
+        color: #fff;
+      }
+    
+      .art-h2 {
+        font-size: 24px !important;
+        color: #fff;
+      }
+      .art-h3 {
+        font-size: 28px !important;
+      }
+}
+@media (min-width: 394px) and (max-width: 768px) {
+    h1{
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+      }
+
+      .responsive-text {
+        font-size: 16px; /* Adjust font size as needed */
+        line-height: 1.5;
+    }
+    .art-h1 {
+        font-size: 40px !important;
+        margin-bottom: 40;
+        margin-top: 40px;
+        color: #fff;
+      }
+    
+      .art-h2 {
+        font-size: 32px !important;
+        color: #fff;
+      }
     /* Media query for screens smaller than 768px (mobile devices) */
     #galacticCenterContent .row {
         flex-direction: column; /* Change flex direction to column */
@@ -304,4 +350,56 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+@media (min-width: 769px)  {
+    .art-h1 {
+        font-size: 40px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        color: #fff;
+      }
+    
+     .art-h2 {
+        font-size: 36px;
+        color: #fff;
+      }
+
+      h1{
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+      }
+      .responsive-text {
+        font-size: 16px; /* Adjust font size as needed */
+        line-height: 1.5;
+    }
+
+}
+
+@media (min-width: 1440px)  {
+    .art-h1 {
+        font-size: 48px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        color: #fff;
+      }
+    
+      .art-h2 {
+        font-size: 36px;
+        color: #fff;
+      }
+     
+      h1{
+        font-size: 48px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+      }
+
+      .responsive-text {
+        font-size: 18px; /* Adjust font size as needed */
+        line-height: 1.5;
+    }
+
+}
+
 
