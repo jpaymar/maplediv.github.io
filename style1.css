@@ -269,6 +269,7 @@ body {
     .btn {
         margin-bottom: 20px !important;
         margin-top: 20px !important; 
+        padding: 15px;
     }
 
     .btn-primary{
