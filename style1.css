@@ -74,21 +74,24 @@ body {
     background-color: #002C5B;
 }
 
-/* Add padding below the button */
 .custom-button {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #fff;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to indicate interactivity */
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition effect */
+    margin-right: 30px; 
     margin-bottom: 40px;
-    margin-top: 30px; /* Adjust as needed */
+    margin-top: 30px; 
 }
 
-/* Add padding below the button */
-.custom-button {
-    margin-bottom: 40px;
-    margin-top: 30px; /* Adjust as needed */
-}
 
-.custom-button {
-    margin-bottom: 40px;
-    margin-top: 30px; /* Adjust as needed */
+
+.btn {
+    margin-bottom: 40px !important;
+    margin-top: 40px !important; 
 }
 
 /* Add this rule for the top padding of videos */
@@ -226,23 +229,7 @@ body {
 }
 
 
-.custom-button {
-    background-color: #002C5B;
-    border: 1px solid #002C5B;
-    color: #fff;
-}
 
-
-.custom-button {
-    background-color: #002C5B;
-    border: 1px solid #002C5B;
-    color: #fff;
-    padding: 10px 20px; /* Adjust padding as needed */
-    border-radius: 5px; /* Add rounded corners */
-    cursor: pointer; /* Change cursor to indicate interactivity */
-    transition: background-color 0.3s, color 0.3s; /* Add smooth transition effect */
-    margin-right: 30px; 
-}
 
 /* Style the button on hover */
 .custom-button:hover {
@@ -278,37 +265,51 @@ body {
 
 
 @media (max-width: 393px) {
+
+    .btn {
+        margin-bottom: 20px !important;
+        margin-top: 20px !important; 
+    }
+    
     .full-width-mobile {
         display: block;
         width: 100%;
-        margin-bottom: 40px; /* Add margin if you need spacing between buttons */
+        margin-bottom: 0px; /* Add margin if you need spacing between buttons */
       }
   
-  
-    h1{
-        font-size: 32px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-      }
 
       .responsive-text {
         font-size: 16px; /* Adjust font size as needed */
         line-height: 1.5;
+        margin-bottom: 40px !important;
     }
 
     .art-h1 {
         font-size: 32px !important;
-        margin-bottom: 40;
-        margin-top: 40px;
-        color: #fff;
+        margin-bottom: 40px !important;
+        margin-top: 40px !important;
+        color: #000000 !important;
       }
     
       .art-h2 {
         font-size: 24px !important;
-        color: #fff;
+        margin-bottom: 40px !important;
+        margin-top: 40px;
+        color: #000000;
       }
-      .art-h3 {
-        font-size: 28px !important;
+      
+      .art-h1w {
+        font-size: 32px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px !important;
+        color: #ffffff !important;
+      }
+    
+      .art-h2w {
+        font-size: 24px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px;
+        color: #ffffff;
       }
 }
 @media (min-width: 394px) and (max-width: 768px) {
