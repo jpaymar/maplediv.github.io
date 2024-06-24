@@ -265,10 +265,14 @@ body {
 
 
 @media (max-width: 393px) {
-
+    
     .btn {
         margin-bottom: 20px !important;
         margin-top: 20px !important; 
+    }
+
+    .custom-button{
+        margin-bottom: 40px !important;
     }
     
     .full-width-mobile {
