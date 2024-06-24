@@ -325,49 +325,70 @@ body {
 }
 @media (min-width: 394px) and (max-width: 768px) {
 
+    .btn {
+        margin-bottom: 20px !important;
+        margin-top: 20px !important; 
+        padding: 15px;
+    }
+
+    .btn-primary{
+        color: #ffffff !important;
+        background-color: #000000;
+        border: #000000;
+    }
+
+    .custom-button{
+        margin-bottom: 40px !important;
+    }
+    
     .full-width-mobile {
         display: block;
         width: 100%;
-        margin-bottom: 40px; /* Add margin if you need spacing between buttons */
+        margin-bottom: 0px; /* Add margin if you need spacing between buttons */
       }
-    h1{
-        font-size: 32px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-      }
+  
 
       .responsive-text {
         font-size: 16px; /* Adjust font size as needed */
         line-height: 1.5;
+        margin-bottom: 40px !important;
     }
+
     .art-h1 {
-        font-size: 32px !important;
-        margin-bottom: 40;
-        margin-top: 40px;
-        color: #fff;
+        font-size: 40px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px !important;
+        color: #000000 !important;
       }
     
       .art-h2 {
-        font-size: 24px !important;
-        color: #fff;
+        font-size: 32px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px;
+        color: #000000;
       }
-    /* Media query for screens smaller than 768px (mobile devices) */
-    #galacticCenterContent .row {
-        flex-direction: column; /* Change flex direction to column */
-        align-items: center; /* Center align items */
-    }
+      
+      .art-h1w {
+        font-size: 40px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px !important;
+        color: #ffffff !important;
+      }
+    
+      .art-h2w {
+        font-size: 32px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px;
+        color: #ffffff;
+      }
 
-    #galacticCenterContent .col-md-6 {
-        width: 100%; /* Set column width to 100% */
-        padding: 0; /* Remove padding */
-    }
+    h1{
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+      }
 
-    .embed-responsive-16by9 {
-        width: 100%; /* Set video width to 100% */
-        margin-top: 20px; /* Add margin to separate text and video */
     }
-}
-
 /* Add a class to the body element of your contact page */
 .contact-page {
     background-color: #f2f2f2; /* Set background color */
@@ -379,53 +400,137 @@ body {
 }
 
 @media (min-width: 769px)  {
-    .art-h1 {
-        font-size: 40px;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        color: #fff;
-      }
-    
-     .art-h2 {
-        font-size: 36px;
-        color: #fff;
-      }
-
-      h1{
-        font-size: 40px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-      }
-      .responsive-text {
-        font-size: 16px; /* Adjust font size as needed */
-        line-height: 1.5;
+    .custom-textarea {
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
-}
+    .btn-primary{
+        color: #ffffff !important;
+        background-color: #000000;
+        border: #000000;
+        margin-right: 20px;
+    }
 
-@media (min-width: 1440px)  {
-    .art-h1 {
-        font-size: 48px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        color: #fff;
-      }
+    .custom-button{
+        margin-bottom: 40px !important;
+    }
     
-      .art-h2 {
-        font-size: 36px;
-        color: #fff;
-      }
-     
-      h1{
-        font-size: 48px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-      }
 
       .responsive-text {
         font-size: 18px; /* Adjust font size as needed */
         line-height: 1.5;
+        margin-bottom: 0px !important;
     }
+
+    .art-h1 {
+        font-size: 40px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px !important;
+        color: #000000 !important;
+      }
+    
+      .art-h2 {
+        font-size: 32px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px;
+        color: #000000;
+      }
+      
+      .art-h1w {
+        font-size: 40px !important;
+        margin-bottom: 80px !important;
+        margin-top: 80px !important;
+        color: #ffffff !important;
+      }
+    
+      .art-h2w {
+        font-size: 36px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px;
+        color: #ffffff;
+      }
+
+    h1{
+        font-size: 40px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+      }
+    
+
+}
+
+@media (min-width: 1440px)  {
+
+    .custom-textarea {
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .btn-primary{
+        color: #ffffff !important;
+        background-color: #000000;
+        border: #000000;
+        margin-right: 20px;
+    }
+
+    .custom-button{
+        margin-bottom: 40px !important;
+    }
+    
+
+      .responsive-text {
+        font-size: 18px; /* Adjust font size as needed */
+        line-height: 1.5;
+        margin-bottom: 0px !important;
+    }
+
+    .art-h1 {
+        font-size: 48px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px !important;
+        color: #000000 !important;
+      }
+    
+      .art-h2 {
+        font-size: 36px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px;
+        color: #000000;
+      }
+      
+      .art-h1w {
+        font-size: 48px !important;
+        margin-bottom: 80px !important;
+        margin-top: 80px !important;
+        color: #ffffff !important;
+      }
+    
+      .art-h2w {
+        font-size: 36px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px;
+        color: #ffffff;
+      }
+
+    h1{
+        font-size: 48px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+      }
+    
 
 }
 
