@@ -265,21 +265,28 @@ body {
 
 
 @media (max-width: 393px) {
+
+    .custom-textarea {
+        width: 100% !important;
+    }
     
     .btn {
         margin-bottom: 20px !important;
         margin-top: 20px !important; 
         padding: 15px;
+        margin-right: 0px !important;
     }
 
     .btn-primary{
         color: #ffffff !important;
         background-color: #000000;
         border: #000000;
+        margin-right: 0px !important; 
     }
 
     .custom-button{
         margin-bottom: 40px !important;
+        margin-right: 0px;
     }
     
     .full-width-mobile {
@@ -400,22 +407,25 @@ body {
 }
 
 @media (min-width: 769px)  {
+
+    
     .custom-textarea {
         padding-bottom: 0px !important;
-        margin-bottom: 0px !important;
+        margin-bottom: 40px !important;
     }
     .btn {
         padding-top: 15px;
         padding-bottom: 15px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        margin-top: 0px !important; 
     }
 
     .btn-primary{
+        margin-right: 20px !important;
         color: #ffffff !important;
         background-color: #000000;
         border: #000000;
-        margin-right: 20px;
     }
 
     .custom-button{
@@ -427,6 +437,11 @@ body {
         font-size: 18px; /* Adjust font size as needed */
         line-height: 1.5;
         margin-bottom: 0px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .text-left{
+        margin-bottom: 40px !important;
     }
 
     .art-h1 {
