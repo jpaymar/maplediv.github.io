@@ -304,29 +304,29 @@ body {
 
     .art-h1 {
         font-size: 32px !important;
-        margin-bottom: 40px !important;
-        margin-top: 40px !important;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
         color: #000000 !important;
       }
     
       .art-h2 {
         font-size: 24px !important;
         margin-bottom: 40px !important;
-        margin-top: 40px;
+        margin-top: 0px;
         color: #000000;
       }
       
       .art-h1w {
         font-size: 32px !important;
-        margin-bottom: 40px !important;
-        margin-top: 40px !important;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
         color: #ffffff !important;
       }
     
       .art-h2w {
         font-size: 24px !important;
-        margin-bottom: 40px !important;
-        margin-top: 40px;
+        margin-bottom: 20px !important;
+        margin-top: 0px;
         color: #ffffff;
       }
 }
@@ -365,36 +365,36 @@ body {
 
     .art-h1 {
         font-size: 40px !important;
-        margin-bottom: 40px !important;
-        margin-top: 40px !important;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
         color: #000000 !important;
       }
     
       .art-h2 {
         font-size: 32px !important;
-        margin-bottom: 40px !important;
-        margin-top: 40px;
+        margin-bottom: 20px !important;
+        margin-top: 0px;
         color: #000000;
       }
       
       .art-h1w {
         font-size: 40px !important;
-        margin-bottom: 40px !important;
-        margin-top: 40px !important;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
         color: #ffffff !important;
       }
     
       .art-h2w {
         font-size: 32px !important;
-        margin-bottom: 40px !important;
-        margin-top: 40px;
+        margin-bottom: 20px !important;
+        margin-top: 0px;
         color: #ffffff;
       }
 
     h1{
         font-size: 40px;
-        margin-top: 60px;
-        margin-bottom: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
       }
 
     }
