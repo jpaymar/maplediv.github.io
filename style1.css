@@ -439,11 +439,12 @@ body {
         font-size: 18px; /* Adjust font size as needed */
         line-height: 1.5;
         margin-bottom: 0px !important;
-        margin-bottom: 40px !important;
+        margin-top: 40px !important;
     }
 
     .text-left{
         margin-bottom: 40px !important;
+        margin-top: 40px !important;
     }
 
     .art-h1 {
@@ -462,22 +463,22 @@ body {
       
       .art-h1w {
         font-size: 40px !important;
-        margin-bottom: 80px !important;
-        margin-top: 80px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px !important;
         color: #ffffff !important;
       }
     
       .art-h2w {
         font-size: 36px !important;
         margin-bottom: 40px !important;
-        margin-top: 40px;
+        margin-top: 0px;
         color: #ffffff;
       }
 
     h1{
         font-size: 40px;
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-top: 40px;
+        margin-bottom: 40px;
       }
     
 
@@ -485,9 +486,20 @@ body {
 
 @media (min-width: 1440px)  {
 
+    .responsive-text {
+        font-size: 18px; /* Adjust font size as needed */
+        line-height: 1.5;
+        margin-bottom: 0px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .text-left{
+        margin-bottom: 40px !important;
+    }
+
     .custom-textarea {
         padding-bottom: 0px !important;
-        margin-bottom: 0px !important;
+        margin-bottom: 40px !important;
     }
     .btn {
         padding-top: 15px;
@@ -524,23 +536,11 @@ body {
       .art-h2 {
         font-size: 36px !important;
         margin-bottom: 40px !important;
-        margin-top: 40px;
+        margin-top: 0px;
         color: #000000;
       }
       
-      .art-h1w {
-        font-size: 48px !important;
-        margin-bottom: 80px !important;
-        margin-top: 80px !important;
-        color: #ffffff !important;
-      }
-    
-      .art-h2w {
-        font-size: 36px !important;
-        margin-bottom: 40px !important;
-        margin-top: 40px;
-        color: #ffffff;
-      }
+     
 
     h1{
         font-size: 48px;
