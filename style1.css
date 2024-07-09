@@ -500,7 +500,7 @@ body {
     }
 
     .text-left{
-        margin-bottom: 40px !important;
+        margin-bottom: 0px !important;
     }
 
     .custom-textarea {
