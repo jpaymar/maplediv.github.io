@@ -5,6 +5,11 @@ h1, h2, h3, p, ul {
     padding-left: 0;
 }
 
+.container {
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+}
+
 .background-container {
     padding: 60px 0; /* Adds vertical padding to each section */
 }
@@ -27,6 +32,7 @@ h1, h2, h3, p, ul {
 
 .art-h1{
 color: black;
+text-align: left;
 }
 
 .art-h2{
@@ -51,6 +57,13 @@ body {
 
 .contact-form-page {
     text-align: left; /* Left align the form */
+    margin: 0 auto;
+    max-width: 600px; /* Adjust as needed */
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 40px;
 }
 
 .contact-form-page label {
@@ -347,6 +360,7 @@ body {
 @media (min-width: 394px) and (max-width: 768px) {
     .custom-textarea {
         width: 100% !important;
+        margin-bottom: 0px;
     }
     .btn {
         margin-bottom: 20px !important;
@@ -430,7 +444,7 @@ body {
     
     .custom-textarea {
         padding-bottom: 0px !important;
-        margin-bottom: 40px !important;
+        margin-bottom: 0px !important;
     }
     .btn {
         padding-top: 15px;
@@ -502,6 +516,12 @@ body {
 }
 
 @media (min-width: 1440px)  {
+    .custom-textarea {
+        width: 100% !important;
+        margin-bottom: 0px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
 
     .responsive-text {
         font-size: 18px; /* Adjust font size as needed */
@@ -516,7 +536,7 @@ body {
 
     .custom-textarea {
         padding-bottom: 0px !important;
-        margin-bottom: 40px !important;
+        margin-bottom: 0px !important;
     }
     .btn {
         padding-top: 15px;
