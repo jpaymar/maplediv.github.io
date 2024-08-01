@@ -32,7 +32,7 @@ h1, h2, h3, p, ul {
 
 .art-h1{
 color: black;
-text-align: left;
+text-align: center;
 }
 
 .art-h2{
@@ -358,6 +358,7 @@ body {
       }
 }
 @media (min-width: 394px) and (max-width: 768px) {
+    
     .custom-textarea {
         width: 100% !important;
         margin-bottom: 0px;
@@ -437,6 +438,9 @@ body {
 }
 
 @media (min-width: 769px)  {
+    .submitbutton{
+        margin-top: 60px !important;
+      }
     .custom-img {
         margin-top: 40px;
         margin-bottom: 40px;
@@ -462,7 +466,7 @@ body {
     }
 
     .custom-button{
-        margin-bottom: 40px !important;
+        margin-bottom: 40px;
     }
     
 
@@ -583,6 +587,10 @@ body {
         font-size: 48px;
         margin-top: 40px;
         margin-bottom: 40px;
+      }
+
+      .submitbutton{
+        margin-top: 30px !important;
       }
     
 
