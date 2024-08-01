@@ -11,13 +11,13 @@ h1, h2, h3, p, ul {
 
 .background-container1 {
     background-image: url('/images/img1.jpg');
-    margin-top: 60px !important;
+    margin-top: 40px !important;
     box-shadow: 0 -4px 8px  rgba(0, 0, 0, 0.2)!important;
 }
 
 .background-container2 {
     background-image: url('/images/wheatstacks.jpg');
-    margin-bottom: 60px !important;
+    margin-bottom: 40px !important;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
