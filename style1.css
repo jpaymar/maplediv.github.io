@@ -1,14 +1,76 @@
-/* Reset some default styles */
+/* Ensure body and html take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form-page {
+    max-width: 600px; /* Optional: sets a max width for the form */
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
+    border-radius: 8px; /* Optional: adds rounded corners */
+    background-color: #f9f9f9; /* Optional: form background */
+}
+/* Container for all content except footer */
+.container {
+    flex: 1; /* Expands to fill available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Footer styling */
+
+
+.footer {
+    display: flex;
+    position: relative; /* Or 'fixed' if you want it always at the bottom of the viewport */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color: #000000;
+    padding: 20px 0;  /* Reduced padding for cleaner look */
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between text and icons */
+    max-width: 400px;  /* Adjust width as necessary */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer .social-icons a img {
+    width: 24px;
+    height: 24px;
+}
+
+
 h1, h2, h3, p, ul {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 0;
 }
 
-.container {
-    max-width: 600px; /* Adjust as needed */
-    margin: 0 auto;
-}
+
 
 .background-container {
     padding: 60px 0; /* Adds vertical padding to each section */
@@ -17,13 +79,14 @@ h1, h2, h3, p, ul {
 .background-container1 {
     background-image: url('/images/img1.jpg');
     margin-top: 40px !important;
-    box-shadow: 0 -4px 8px  rgba(0, 0, 0, 0.2)!important;
+    margin-bottom: 40px !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3) !important;
 }
 
 .background-container2 {
     background-image: url('/images/wheatstacks.jpg');
     margin-bottom: 40px !important;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3) !important;
 }
 
 .background-container3 {
@@ -39,10 +102,7 @@ text-align: center;
     color: black;
     }
 
-body {
-    margin: 0;
-    padding: 0;
-}
+
 
 /* Add this rule to center the contact form */
 /* Add this rule to center the contact form */
@@ -162,10 +222,8 @@ img {
     margin: 0 auto; /* To center the image horizontally */
 }
 
-/* Body styles */
-body {
-    font-family: 'Roboto', sans-serif;
-}
+
+
 
 /* Navbar styles */
 .navbar {
@@ -225,33 +283,6 @@ body {
 .background-container p {
     margin-bottom: 10px;
 }
-
-
-.footer {
-    background-color: #f8f9fa; /* Bootstrap light gray background color */
-    padding: 20px 0;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0; /* Ensure no margin at the bottom of the footer */
-}
-
-/* Social icons styles */
-.social-icons {
-    margin-top: 20px; /* Adjust the margin as needed */
-    display: flex;
-    justify-content: center;
-}
-
-.social-icons img {
-    width: 30px; /* Adjust the width of the social media icons as needed */
-    height: 30px; /* Adjust the height of the social media icons as needed */
-    margin: 0 10px; /* Adjust the margin between icons as needed */
-    vertical-align: middle;
-}
-
-
-
-
 /* Style the button on hover */
 .custom-button:hover {
     background-color: #001A35; /* Change background color on hover */
