@@ -1,6 +1,8 @@
 /* Ensure body and html take full height */
 html, body {
     height: 100%;
+    overflow-x: hidden;
+    width: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
