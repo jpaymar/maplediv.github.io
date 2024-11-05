@@ -37,7 +37,7 @@ html, body {
     width: 100%;
     background-color: #f8f9fa;
     color: #000000;
-    padding: 20px 0;  /* Reduced padding for cleaner look */
+    padding: 40px 0;  /* Reduced padding for cleaner look */
     margin-top: 50px;
     font-family: 'Roboto', sans-serif;
 }
